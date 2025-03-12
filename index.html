@@ -7,75 +7,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- This is the navigation section -->
-    
-        <header>
-            <nav class="navbar">
-                <ul>
-                    <li class="button"><a href="#about-me">About Me</a></li>
-                    <li class="button"><a href="#skills">Skills</a></li>
-                    <li class="button"><a href="#projects">Projects</a></li>
-                    <li class="button"><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-    
-        <section id="about-me">
-            <h2>About Me</h2>
-            <img src="images/Millie and Me.jpg" alt="Profile Picture" class="profile-img">
-            <p>Hi! I am a full-stack engineering student. I enjoy learning new technologies and collaborating with others on innovative projects.</p>
-        </section>
-    
-        <!-- Skills Section -->
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="skills-container">
-                <div class="skill">People Leader</div>
-                <div class="skill">Photography</div>
-                <div class="skill">Lucid Spark</div>
-                <div class="skill">Communication</div>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="button"><a href="#about-me">About Me</a></li>
+                <li class="button"><a href="#skills">Skills</a></li>
+                <li class="button"><a href="#projects">Projects</a></li>
+                <li class="button"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <img src="images/Millie and Me.jpg" alt="Profile Picture" class="profile-img">
+        <p>Hi! I am a full-stack engineering student. I enjoy learning new technologies and collaborating with others on innovative projects.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">People Leadership</div>
+            <div class="skill">Photography</div>
+            <div class="skill">Lucid Spark</div>
+            <div class="skill">Communication</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="images/IMG_5508.jpg" alt="Project 1">
+                <h3>Gardening</h3>
+                <p>I have recently picked up gardening, and am excited to see the results!</p>
             </div>
-        </section>
-    
-        <!-- Projects Section -->
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="projects-container">
-                <div class="project-card">
-                    <img src="images/IMG_5508.jpg" alt="Project 1">
-                    <h3>Gardening</h3>
-                    <p>I have recently picked up gardening, and am excited to see the results!</p>
-                </div>
-                <div class="project-card">
-                    <img src="images/Photo_6553949_DJI_349_jpg_9920154_0_2021612172958_photo_original.JPG" alt="Project 2">
-                    <h3>Drone Photography</h3>
-                    <p>A big fanatic of photography, specifically drone footage.</p>
-                </div>
-                <div class="project-card">
-                    <img src="images/Screenshot 2025-03-12 at 3.49.06 PM.png" alt="Project 3">
-                    <h3>Social Media Manager</h3>
-                    <p>Supporting Small Business in managing their Social Media.</p>
-                </div>
+            <div class="project-card">
+                <img src="images/Photo_6553949_DJI_349_jpg_9920154_0_2021612172958_photo_original.JPG" alt="Project 2">
+                <h3>Drone Photography</h3>
+                <p>A big fanatic of photography, specifically drone footage.</p>
             </div>
-        </section>
-    
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Let's get in touch!</p>
-                <br>
-                <a href="amanda.pujol@libertymutual.com">Amanda.Pujol@libertymutual.com</a></p>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    
-    </body>
-    </html>
-    
+            <div class="project-card">
+                <img src="images/Screenshot 2025-03-12 at 3.49.06 PM.png" alt="Project 3">
+                <h3>Social Media Manager</h3>
+                <p>Supporting small businesses in managing their social media.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Let's get in touch!</p>
+        <a href="mailto:amanda.pujol@libertymutual.com">Amanda.Pujol@libertymutual.com</a> <!-- Changed to mailto link -->
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
