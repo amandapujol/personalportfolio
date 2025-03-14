@@ -12,6 +12,11 @@ body {
     background-color: #dfd0d0;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
 .button {
     background-color: #fff;
     color: #333;
