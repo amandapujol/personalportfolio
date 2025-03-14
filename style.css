@@ -49,7 +49,7 @@ body {
     border-radius: 75%;
     margin: 15px;
     padding: 20px;
-    width: 300px; 
+    width: 300px;
     height: auto;
     align-items: center;
 }
@@ -150,4 +150,33 @@ button {
 
 button:hover {
     background-color: #555; 
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .profile-img, 
+    .contact-img {
+        width: 80%; /* Responsive image size */
+        max-width: 300px; /* Maintain max size */
+        margin: 0 auto; /* Center align on small screens */
+    }
+
+    .button {
+        margin: 5px; /* Reduce button margin */
+    }
+
+    .project-card {
+        width: 90%; /* Make project cards take more width */
+        max-width: 300px; /* Maintain max width */
+    }
+
+    .skills-container, 
+    .projects-container {
+        flex-direction: column; /* Stack items on small screens */
+    }
+    
+    form input,
+    form textarea {
+        max-width: 90%; /* Make form inputs responsive */
+    }
 }
